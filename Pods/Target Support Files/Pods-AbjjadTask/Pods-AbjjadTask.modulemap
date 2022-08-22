@@ -1,0 +1,6 @@
+framework module Pods_AbjjadTask {
+  umbrella header "Pods-AbjjadTask-umbrella.h"
+
+  export *
+  module * { export * }
+}

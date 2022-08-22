@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jZc-y3-T6H">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Available Currencies View Controller-->
+        <scene sceneID="L2s-f2-kHK">
+            <objects>
+                <viewController storyboardIdentifier="AvailableCurrenciesViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="jZc-y3-T6H" customClass="AvailableCurrenciesViewController" customModule="AbjjadTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Cqf-YQ-rWD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MgB-OL-Eob">
+                                <rect key="frame" x="16" y="8" width="343" height="130"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="pqr-uT-w2G">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="130"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.18823529411764706" green="0.19215686274509802" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="pqr-uT-w2G" firstAttribute="leading" secondItem="MgB-OL-Eob" secondAttribute="leading" id="88T-TP-W87"/>
+                                    <constraint firstAttribute="trailing" secondItem="pqr-uT-w2G" secondAttribute="trailing" id="UN9-tR-sEU"/>
+                                    <constraint firstAttribute="bottom" secondItem="pqr-uT-w2G" secondAttribute="bottom" id="gc4-HN-79a"/>
+                                    <constraint firstItem="pqr-uT-w2G" firstAttribute="top" secondItem="MgB-OL-Eob" secondAttribute="top" id="oj9-xa-Iur"/>
+                                    <constraint firstAttribute="height" constant="130" id="yZ3-d8-nRS"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="KRc-Ws-NFY"/>
+                        <color key="backgroundColor" red="0.13333333333333333" green="0.13725490196078433" blue="0.13333333333333333" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="MgB-OL-Eob" firstAttribute="leading" secondItem="Cqf-YQ-rWD" secondAttribute="leading" constant="16" id="9HR-G1-vTA"/>
+                            <constraint firstAttribute="trailing" secondItem="MgB-OL-Eob" secondAttribute="trailing" constant="16" id="DR3-FK-60j"/>
+                            <constraint firstItem="MgB-OL-Eob" firstAttribute="top" secondItem="KRc-Ws-NFY" secondAttribute="top" constant="8" id="FEB-pC-1Aa"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="containerView" destination="MgB-OL-Eob" id="Gj4-ti-ahk"/>
+                        <outlet property="tableView" destination="pqr-uT-w2G" id="T5d-No-40y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DW0-KS-HDw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="255" y="191"/>
+        </scene>
+    </scenes>
+</document>

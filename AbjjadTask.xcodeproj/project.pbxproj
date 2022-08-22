@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82547E55D5874B7BFF328461 /* Pods_AbjjadTask_AbjjadTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E769225C3C4ECC869DC9DB1 /* Pods_AbjjadTask_AbjjadTaskUITests.framework */; };
+		96863165B3E83696A91145FD /* Pods_AbjjadTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ACF0BF49DAD3191F89C69A7 /* Pods_AbjjadTaskTests.framework */; };
+		C2029DBA96AAAA3100D9640D /* Pods_AbjjadTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 593739C5AA339AB455986DE4 /* Pods_AbjjadTask.framework */; };
+		F81B95A728B1299C00B17FB5 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F81B95A628B1299C00B17FB5 /* Alamofire */; };
 		F863FA9728AF8AD9002EBDC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863FA9628AF8AD9002EBDC5 /* AppDelegate.swift */; };
 		F863FA9928AF8AD9002EBDC5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863FA9828AF8AD9002EBDC5 /* SceneDelegate.swift */; };
 		F863FA9B28AF8AD9002EBDC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863FA9A28AF8AD9002EBDC5 /* ViewController.swift */; };
@@ -16,6 +20,39 @@
 		F863FAAE28AF8ADE002EBDC5 /* AbjjadTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863FAAD28AF8ADE002EBDC5 /* AbjjadTaskTests.swift */; };
 		F863FAB828AF8ADE002EBDC5 /* AbjjadTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863FAB728AF8ADE002EBDC5 /* AbjjadTaskUITests.swift */; };
 		F863FABA28AF8ADE002EBDC5 /* AbjjadTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863FAB928AF8ADE002EBDC5 /* AbjjadTaskUITestsLaunchTests.swift */; };
+		F863FAD628AF8E46002EBDC5 /* AvailableCurrencies.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F863FAC728AF8E46002EBDC5 /* AvailableCurrencies.storyboard */; };
+		F863FAD728AF8E46002EBDC5 /* AvailableCurrenciesInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863FAC828AF8E46002EBDC5 /* AvailableCurrenciesInteractorOutput.swift */; };
+		F863FAD828AF8E46002EBDC5 /* AvailableCurrenciesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863FAC928AF8E46002EBDC5 /* AvailableCurrenciesPresenter.swift */; };
+		F863FAD928AF8E46002EBDC5 /* AvailableCurrenciesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863FACA28AF8E46002EBDC5 /* AvailableCurrenciesRouter.swift */; };
+		F863FADA28AF8E46002EBDC5 /* AvailableCurrenciesInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863FACB28AF8E46002EBDC5 /* AvailableCurrenciesInteractorInput.swift */; };
+		F863FADB28AF8E46002EBDC5 /* AvailableCurrenciesInteractorModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863FACC28AF8E46002EBDC5 /* AvailableCurrenciesInteractorModuleFactory.swift */; };
+		F863FADC28AF8E46002EBDC5 /* AvailableCurrenciesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863FACD28AF8E46002EBDC5 /* AvailableCurrenciesViewController.swift */; };
+		F863FADD28AF8E46002EBDC5 /* AvailableCurrenciesPresenterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863FACE28AF8E46002EBDC5 /* AvailableCurrenciesPresenterInput.swift */; };
+		F863FADE28AF8E46002EBDC5 /* AvailableCurrenciesInteractorDataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863FACF28AF8E46002EBDC5 /* AvailableCurrenciesInteractorDataSourceProtocol.swift */; };
+		F863FADF28AF8E46002EBDC5 /* AvailableCurrenciesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863FAD028AF8E46002EBDC5 /* AvailableCurrenciesInteractor.swift */; };
+		F863FAE028AF8E46002EBDC5 /* AvailableCurrenciesPresenterOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863FAD128AF8E46002EBDC5 /* AvailableCurrenciesPresenterOutput.swift */; };
+		F863FAE128AF8E46002EBDC5 /* AvailableCurrenciesInteractorModuleFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863FAD228AF8E46002EBDC5 /* AvailableCurrenciesInteractorModuleFactoryProtocol.swift */; };
+		F863FAE228AF8E46002EBDC5 /* AvailableCurrenciesModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863FAD328AF8E46002EBDC5 /* AvailableCurrenciesModuleFactory.swift */; };
+		F863FAE328AF8E46002EBDC5 /* AvailableCurrenciesRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863FAD428AF8E46002EBDC5 /* AvailableCurrenciesRouterProtocol.swift */; };
+		F863FAE428AF8E46002EBDC5 /* AvailableCurrenciesInteractorDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863FAD528AF8E46002EBDC5 /* AvailableCurrenciesInteractorDataSource.swift */; };
+		F86BF41328B036870018A1FC /* AvailableCurrenciesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86BF41128B036870018A1FC /* AvailableCurrenciesTableViewCell.swift */; };
+		F86BF41428B036870018A1FC /* AvailableCurrenciesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F86BF41228B036870018A1FC /* AvailableCurrenciesTableViewCell.xib */; };
+		F86BF41628B038690018A1FC /* AvailableCurrenciesTableViewCellConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86BF41528B038690018A1FC /* AvailableCurrenciesTableViewCellConfigurable.swift */; };
+		F8EC1DA228AFD79F007DDAB2 /* Chart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8EC1D9328AFD79F007DDAB2 /* Chart.storyboard */; };
+		F8EC1DA328AFD79F007DDAB2 /* ChartInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC1D9428AFD79F007DDAB2 /* ChartInteractorOutput.swift */; };
+		F8EC1DA428AFD79F007DDAB2 /* ChartPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC1D9528AFD79F007DDAB2 /* ChartPresenter.swift */; };
+		F8EC1DA528AFD79F007DDAB2 /* ChartRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC1D9628AFD79F007DDAB2 /* ChartRouter.swift */; };
+		F8EC1DA628AFD79F007DDAB2 /* ChartInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC1D9728AFD79F007DDAB2 /* ChartInteractorInput.swift */; };
+		F8EC1DA728AFD79F007DDAB2 /* ChartInteractorModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC1D9828AFD79F007DDAB2 /* ChartInteractorModuleFactory.swift */; };
+		F8EC1DA828AFD79F007DDAB2 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC1D9928AFD79F007DDAB2 /* ChartViewController.swift */; };
+		F8EC1DA928AFD79F007DDAB2 /* ChartPresenterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC1D9A28AFD79F007DDAB2 /* ChartPresenterInput.swift */; };
+		F8EC1DAA28AFD79F007DDAB2 /* ChartInteractorDataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC1D9B28AFD79F007DDAB2 /* ChartInteractorDataSourceProtocol.swift */; };
+		F8EC1DAB28AFD79F007DDAB2 /* ChartInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC1D9C28AFD79F007DDAB2 /* ChartInteractor.swift */; };
+		F8EC1DAC28AFD79F007DDAB2 /* ChartPresenterOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC1D9D28AFD79F007DDAB2 /* ChartPresenterOutput.swift */; };
+		F8EC1DAD28AFD79F007DDAB2 /* ChartInteractorModuleFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC1D9E28AFD79F007DDAB2 /* ChartInteractorModuleFactoryProtocol.swift */; };
+		F8EC1DAE28AFD79F007DDAB2 /* ChartModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC1D9F28AFD79F007DDAB2 /* ChartModuleFactory.swift */; };
+		F8EC1DAF28AFD79F007DDAB2 /* ChartRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC1DA028AFD79F007DDAB2 /* ChartRouterProtocol.swift */; };
+		F8EC1DB028AFD79F007DDAB2 /* ChartInteractorDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC1DA128AFD79F007DDAB2 /* ChartInteractorDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +73,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06D7DA770471C72E81850774 /* Pods-AbjjadTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbjjadTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-AbjjadTaskTests/Pods-AbjjadTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		593739C5AA339AB455986DE4 /* Pods_AbjjadTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AbjjadTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E769225C3C4ECC869DC9DB1 /* Pods_AbjjadTask_AbjjadTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AbjjadTask_AbjjadTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ACF0BF49DAD3191F89C69A7 /* Pods_AbjjadTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AbjjadTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EC475B6907EF77F5F4CD394 /* Pods-AbjjadTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbjjadTaskTests.release.xcconfig"; path = "Target Support Files/Pods-AbjjadTaskTests/Pods-AbjjadTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		9F0968FD84E5E72914294538 /* Pods-AbjjadTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbjjadTask.release.xcconfig"; path = "Target Support Files/Pods-AbjjadTask/Pods-AbjjadTask.release.xcconfig"; sourceTree = "<group>"; };
+		B97DADDA75BA39FEE4B6131F /* Pods-AbjjadTask-AbjjadTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbjjadTask-AbjjadTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-AbjjadTask-AbjjadTaskUITests/Pods-AbjjadTask-AbjjadTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E9168EF8F8CDD1F5FD6E2585 /* Pods-AbjjadTask-AbjjadTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbjjadTask-AbjjadTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-AbjjadTask-AbjjadTaskUITests/Pods-AbjjadTask-AbjjadTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F863FA9328AF8AD9002EBDC5 /* AbjjadTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbjjadTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F863FA9628AF8AD9002EBDC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F863FA9828AF8AD9002EBDC5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +94,40 @@
 		F863FAB328AF8ADE002EBDC5 /* AbjjadTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbjjadTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F863FAB728AF8ADE002EBDC5 /* AbjjadTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbjjadTaskUITests.swift; sourceTree = "<group>"; };
 		F863FAB928AF8ADE002EBDC5 /* AbjjadTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbjjadTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F863FAC728AF8E46002EBDC5 /* AvailableCurrencies.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AvailableCurrencies.storyboard; sourceTree = "<group>"; };
+		F863FAC828AF8E46002EBDC5 /* AvailableCurrenciesInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableCurrenciesInteractorOutput.swift; sourceTree = "<group>"; };
+		F863FAC928AF8E46002EBDC5 /* AvailableCurrenciesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableCurrenciesPresenter.swift; sourceTree = "<group>"; };
+		F863FACA28AF8E46002EBDC5 /* AvailableCurrenciesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableCurrenciesRouter.swift; sourceTree = "<group>"; };
+		F863FACB28AF8E46002EBDC5 /* AvailableCurrenciesInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableCurrenciesInteractorInput.swift; sourceTree = "<group>"; };
+		F863FACC28AF8E46002EBDC5 /* AvailableCurrenciesInteractorModuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableCurrenciesInteractorModuleFactory.swift; sourceTree = "<group>"; };
+		F863FACD28AF8E46002EBDC5 /* AvailableCurrenciesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableCurrenciesViewController.swift; sourceTree = "<group>"; };
+		F863FACE28AF8E46002EBDC5 /* AvailableCurrenciesPresenterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableCurrenciesPresenterInput.swift; sourceTree = "<group>"; };
+		F863FACF28AF8E46002EBDC5 /* AvailableCurrenciesInteractorDataSourceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableCurrenciesInteractorDataSourceProtocol.swift; sourceTree = "<group>"; };
+		F863FAD028AF8E46002EBDC5 /* AvailableCurrenciesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableCurrenciesInteractor.swift; sourceTree = "<group>"; };
+		F863FAD128AF8E46002EBDC5 /* AvailableCurrenciesPresenterOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableCurrenciesPresenterOutput.swift; sourceTree = "<group>"; };
+		F863FAD228AF8E46002EBDC5 /* AvailableCurrenciesInteractorModuleFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableCurrenciesInteractorModuleFactoryProtocol.swift; sourceTree = "<group>"; };
+		F863FAD328AF8E46002EBDC5 /* AvailableCurrenciesModuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableCurrenciesModuleFactory.swift; sourceTree = "<group>"; };
+		F863FAD428AF8E46002EBDC5 /* AvailableCurrenciesRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableCurrenciesRouterProtocol.swift; sourceTree = "<group>"; };
+		F863FAD528AF8E46002EBDC5 /* AvailableCurrenciesInteractorDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableCurrenciesInteractorDataSource.swift; sourceTree = "<group>"; };
+		F86BF41128B036870018A1FC /* AvailableCurrenciesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableCurrenciesTableViewCell.swift; sourceTree = "<group>"; };
+		F86BF41228B036870018A1FC /* AvailableCurrenciesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AvailableCurrenciesTableViewCell.xib; sourceTree = "<group>"; };
+		F86BF41528B038690018A1FC /* AvailableCurrenciesTableViewCellConfigurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableCurrenciesTableViewCellConfigurable.swift; sourceTree = "<group>"; };
+		F8EC1D9328AFD79F007DDAB2 /* Chart.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chart.storyboard; sourceTree = "<group>"; };
+		F8EC1D9428AFD79F007DDAB2 /* ChartInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartInteractorOutput.swift; sourceTree = "<group>"; };
+		F8EC1D9528AFD79F007DDAB2 /* ChartPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartPresenter.swift; sourceTree = "<group>"; };
+		F8EC1D9628AFD79F007DDAB2 /* ChartRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartRouter.swift; sourceTree = "<group>"; };
+		F8EC1D9728AFD79F007DDAB2 /* ChartInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartInteractorInput.swift; sourceTree = "<group>"; };
+		F8EC1D9828AFD79F007DDAB2 /* ChartInteractorModuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartInteractorModuleFactory.swift; sourceTree = "<group>"; };
+		F8EC1D9928AFD79F007DDAB2 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		F8EC1D9A28AFD79F007DDAB2 /* ChartPresenterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartPresenterInput.swift; sourceTree = "<group>"; };
+		F8EC1D9B28AFD79F007DDAB2 /* ChartInteractorDataSourceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartInteractorDataSourceProtocol.swift; sourceTree = "<group>"; };
+		F8EC1D9C28AFD79F007DDAB2 /* ChartInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartInteractor.swift; sourceTree = "<group>"; };
+		F8EC1D9D28AFD79F007DDAB2 /* ChartPresenterOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartPresenterOutput.swift; sourceTree = "<group>"; };
+		F8EC1D9E28AFD79F007DDAB2 /* ChartInteractorModuleFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartInteractorModuleFactoryProtocol.swift; sourceTree = "<group>"; };
+		F8EC1D9F28AFD79F007DDAB2 /* ChartModuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartModuleFactory.swift; sourceTree = "<group>"; };
+		F8EC1DA028AFD79F007DDAB2 /* ChartRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartRouterProtocol.swift; sourceTree = "<group>"; };
+		F8EC1DA128AFD79F007DDAB2 /* ChartInteractorDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartInteractorDataSource.swift; sourceTree = "<group>"; };
+		FC7213A87677083654057C49 /* Pods-AbjjadTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbjjadTask.debug.xcconfig"; path = "Target Support Files/Pods-AbjjadTask/Pods-AbjjadTask.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +135,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F81B95A728B1299C00B17FB5 /* Alamofire in Frameworks */,
+				C2029DBA96AAAA3100D9640D /* Pods_AbjjadTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96863165B3E83696A91145FD /* Pods_AbjjadTaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +152,149 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82547E55D5874B7BFF328461 /* Pods_AbjjadTask_AbjjadTaskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80E921CA0603DFC5F0724AD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				593739C5AA339AB455986DE4 /* Pods_AbjjadTask.framework */,
+				5E769225C3C4ECC869DC9DB1 /* Pods_AbjjadTask_AbjjadTaskUITests.framework */,
+				6ACF0BF49DAD3191F89C69A7 /* Pods_AbjjadTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD262E1A5D3941A76176EB53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC7213A87677083654057C49 /* Pods-AbjjadTask.debug.xcconfig */,
+				9F0968FD84E5E72914294538 /* Pods-AbjjadTask.release.xcconfig */,
+				E9168EF8F8CDD1F5FD6E2585 /* Pods-AbjjadTask-AbjjadTaskUITests.debug.xcconfig */,
+				B97DADDA75BA39FEE4B6131F /* Pods-AbjjadTask-AbjjadTaskUITests.release.xcconfig */,
+				06D7DA770471C72E81850774 /* Pods-AbjjadTaskTests.debug.xcconfig */,
+				6EC475B6907EF77F5F4CD394 /* Pods-AbjjadTaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F8166C8C28AFC5D000736D13 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F863FAC828AF8E46002EBDC5 /* AvailableCurrenciesInteractorOutput.swift */,
+				F863FACB28AF8E46002EBDC5 /* AvailableCurrenciesInteractorInput.swift */,
+				F863FAD028AF8E46002EBDC5 /* AvailableCurrenciesInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		F8166C8D28AFC5F800736D13 /* Module factory */ = {
+			isa = PBXGroup;
+			children = (
+				F863FACC28AF8E46002EBDC5 /* AvailableCurrenciesInteractorModuleFactory.swift */,
+				F863FAD228AF8E46002EBDC5 /* AvailableCurrenciesInteractorModuleFactoryProtocol.swift */,
+			);
+			path = "Module factory";
+			sourceTree = "<group>";
+		};
+		F8166C8E28AFC60F00736D13 /* Data Source */ = {
+			isa = PBXGroup;
+			children = (
+				F863FACF28AF8E46002EBDC5 /* AvailableCurrenciesInteractorDataSourceProtocol.swift */,
+				F863FAD528AF8E46002EBDC5 /* AvailableCurrenciesInteractorDataSource.swift */,
+			);
+			path = "Data Source";
+			sourceTree = "<group>";
+		};
+		F81B959728B0FDFC00B17FB5 /* Business logic */ = {
+			isa = PBXGroup;
+			children = (
+				F81B959928B0FEEE00B17FB5 /* interactor */,
+				F81B959A28B0FF0B00B17FB5 /* Module factory */,
+				F81B959B28B0FF2000B17FB5 /* Data source */,
+			);
+			path = "Business logic";
+			sourceTree = "<group>";
+		};
+		F81B959828B0FE0300B17FB5 /* User interface */ = {
+			isa = PBXGroup;
+			children = (
+				F81B959C28B0FF5300B17FB5 /* Presenter */,
+				F81B959D28B0FF6700B17FB5 /* View */,
+				F81B959E28B0FF7B00B17FB5 /* Router */,
+			);
+			path = "User interface";
+			sourceTree = "<group>";
+		};
+		F81B959928B0FEEE00B17FB5 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F8EC1D9428AFD79F007DDAB2 /* ChartInteractorOutput.swift */,
+				F8EC1D9728AFD79F007DDAB2 /* ChartInteractorInput.swift */,
+				F8EC1D9C28AFD79F007DDAB2 /* ChartInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		F81B959A28B0FF0B00B17FB5 /* Module factory */ = {
+			isa = PBXGroup;
+			children = (
+				F8EC1D9828AFD79F007DDAB2 /* ChartInteractorModuleFactory.swift */,
+				F8EC1D9E28AFD79F007DDAB2 /* ChartInteractorModuleFactoryProtocol.swift */,
+			);
+			path = "Module factory";
+			sourceTree = "<group>";
+		};
+		F81B959B28B0FF2000B17FB5 /* Data source */ = {
+			isa = PBXGroup;
+			children = (
+				F8EC1D9B28AFD79F007DDAB2 /* ChartInteractorDataSourceProtocol.swift */,
+				F8EC1DA128AFD79F007DDAB2 /* ChartInteractorDataSource.swift */,
+			);
+			path = "Data source";
+			sourceTree = "<group>";
+		};
+		F81B959C28B0FF5300B17FB5 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F8EC1D9528AFD79F007DDAB2 /* ChartPresenter.swift */,
+				F8EC1D9A28AFD79F007DDAB2 /* ChartPresenterInput.swift */,
+				F8EC1D9D28AFD79F007DDAB2 /* ChartPresenterOutput.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F81B959D28B0FF6700B17FB5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F8EC1D9328AFD79F007DDAB2 /* Chart.storyboard */,
+				F8EC1D9928AFD79F007DDAB2 /* ChartViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F81B959E28B0FF7B00B17FB5 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				F8EC1D9628AFD79F007DDAB2 /* ChartRouter.swift */,
+				F8EC1DA028AFD79F007DDAB2 /* ChartRouterProtocol.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		F81B959F28B123C600B17FB5 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				F863FACA28AF8E46002EBDC5 /* AvailableCurrenciesRouter.swift */,
+				F863FAD428AF8E46002EBDC5 /* AvailableCurrenciesRouterProtocol.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		F863FA8A28AF8AD9002EBDC5 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +302,8 @@
 				F863FAAC28AF8ADE002EBDC5 /* AbjjadTaskTests */,
 				F863FAB628AF8ADE002EBDC5 /* AbjjadTaskUITests */,
 				F863FA9428AF8AD9002EBDC5 /* Products */,
+				DD262E1A5D3941A76176EB53 /* Pods */,
+				80E921CA0603DFC5F0724AD7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +320,7 @@
 		F863FA9528AF8AD9002EBDC5 /* AbjjadTask */ = {
 			isa = PBXGroup;
 			children = (
+				F863FAC628AF8BF0002EBDC5 /* Modules */,
 				F863FA9628AF8AD9002EBDC5 /* AppDelegate.swift */,
 				F863FA9828AF8AD9002EBDC5 /* SceneDelegate.swift */,
 				F863FA9A28AF8AD9002EBDC5 /* ViewController.swift */,
@@ -127,6 +349,85 @@
 			path = AbjjadTaskUITests;
 			sourceTree = "<group>";
 		};
+		F863FAC628AF8BF0002EBDC5 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F8EC1D9228AFD779007DDAB2 /* Chart */,
+				F863FAE528AF8E59002EBDC5 /* AvailableCurrencies */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F863FAE528AF8E59002EBDC5 /* AvailableCurrencies */ = {
+			isa = PBXGroup;
+			children = (
+				F863FAD328AF8E46002EBDC5 /* AvailableCurrenciesModuleFactory.swift */,
+				F863FAE728AF8F4C002EBDC5 /* Business logic */,
+				F863FAE628AF8F42002EBDC5 /* User interface */,
+			);
+			path = AvailableCurrencies;
+			sourceTree = "<group>";
+		};
+		F863FAE628AF8F42002EBDC5 /* User interface */ = {
+			isa = PBXGroup;
+			children = (
+				F863FAE828AF8FED002EBDC5 /* Presenter */,
+				F863FAE928AF8FFB002EBDC5 /* View */,
+				F81B959F28B123C600B17FB5 /* Router */,
+			);
+			path = "User interface";
+			sourceTree = "<group>";
+		};
+		F863FAE728AF8F4C002EBDC5 /* Business logic */ = {
+			isa = PBXGroup;
+			children = (
+				F8166C8C28AFC5D000736D13 /* interactor */,
+				F8166C8D28AFC5F800736D13 /* Module factory */,
+				F8166C8E28AFC60F00736D13 /* Data Source */,
+			);
+			path = "Business logic";
+			sourceTree = "<group>";
+		};
+		F863FAE828AF8FED002EBDC5 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F863FAC928AF8E46002EBDC5 /* AvailableCurrenciesPresenter.swift */,
+				F863FACE28AF8E46002EBDC5 /* AvailableCurrenciesPresenterInput.swift */,
+				F863FAD128AF8E46002EBDC5 /* AvailableCurrenciesPresenterOutput.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F863FAE928AF8FFB002EBDC5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F86BF41028B036670018A1FC /* Cell */,
+				F863FAC728AF8E46002EBDC5 /* AvailableCurrencies.storyboard */,
+				F863FACD28AF8E46002EBDC5 /* AvailableCurrenciesViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F86BF41028B036670018A1FC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F86BF41128B036870018A1FC /* AvailableCurrenciesTableViewCell.swift */,
+				F86BF41228B036870018A1FC /* AvailableCurrenciesTableViewCell.xib */,
+				F86BF41528B038690018A1FC /* AvailableCurrenciesTableViewCellConfigurable.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F8EC1D9228AFD779007DDAB2 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				F8EC1D9F28AFD79F007DDAB2 /* ChartModuleFactory.swift */,
+				F81B959728B0FDFC00B17FB5 /* Business logic */,
+				F81B959828B0FE0300B17FB5 /* User interface */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,15 +435,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F863FABD28AF8ADE002EBDC5 /* Build configuration list for PBXNativeTarget "AbjjadTask" */;
 			buildPhases = (
+				D38D522BF73926C02E4DEC41 /* [CP] Check Pods Manifest.lock */,
 				F863FA8F28AF8AD9002EBDC5 /* Sources */,
 				F863FA9028AF8AD9002EBDC5 /* Frameworks */,
 				F863FA9128AF8AD9002EBDC5 /* Resources */,
+				C353DE1686A72A335E210132 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = AbjjadTask;
+			packageProductDependencies = (
+				F81B95A628B1299C00B17FB5 /* Alamofire */,
+			);
 			productName = AbjjadTask;
 			productReference = F863FA9328AF8AD9002EBDC5 /* AbjjadTask.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +457,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F863FAC028AF8ADE002EBDC5 /* Build configuration list for PBXNativeTarget "AbjjadTaskTests" */;
 			buildPhases = (
+				3C64455D3D0B80D92DB7D2B7 /* [CP] Check Pods Manifest.lock */,
 				F863FAA528AF8ADE002EBDC5 /* Sources */,
 				F863FAA628AF8ADE002EBDC5 /* Frameworks */,
 				F863FAA728AF8ADE002EBDC5 /* Resources */,
@@ -169,9 +476,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F863FAC328AF8ADE002EBDC5 /* Build configuration list for PBXNativeTarget "AbjjadTaskUITests" */;
 			buildPhases = (
+				4556F5C83A1F6AFE0F291D44 /* [CP] Check Pods Manifest.lock */,
 				F863FAAF28AF8ADE002EBDC5 /* Sources */,
 				F863FAB028AF8ADE002EBDC5 /* Frameworks */,
 				F863FAB128AF8ADE002EBDC5 /* Resources */,
+				8FEF65200FF09DEB2C23FDE3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +524,9 @@
 				Base,
 			);
 			mainGroup = F863FA8A28AF8AD9002EBDC5;
+			packageReferences = (
+				F81B95A528B1299C00B17FB5 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = F863FA9428AF8AD9002EBDC5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,7 +543,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F86BF41428B036870018A1FC /* AvailableCurrenciesTableViewCell.xib in Resources */,
 				F863FAA328AF8ADD002EBDC5 /* LaunchScreen.storyboard in Resources */,
+				F863FAD628AF8E46002EBDC5 /* AvailableCurrencies.storyboard in Resources */,
+				F8EC1DA228AFD79F007DDAB2 /* Chart.storyboard in Resources */,
 				F863FAA028AF8ADD002EBDC5 /* Assets.xcassets in Resources */,
 				F863FA9E28AF8AD9002EBDC5 /* Main.storyboard in Resources */,
 			);
@@ -253,14 +568,147 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C64455D3D0B80D92DB7D2B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AbjjadTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4556F5C83A1F6AFE0F291D44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AbjjadTask-AbjjadTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FEF65200FF09DEB2C23FDE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AbjjadTask-AbjjadTaskUITests/Pods-AbjjadTask-AbjjadTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AbjjadTask-AbjjadTaskUITests/Pods-AbjjadTask-AbjjadTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AbjjadTask-AbjjadTaskUITests/Pods-AbjjadTask-AbjjadTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C353DE1686A72A335E210132 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AbjjadTask/Pods-AbjjadTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AbjjadTask/Pods-AbjjadTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AbjjadTask/Pods-AbjjadTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D38D522BF73926C02E4DEC41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AbjjadTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F863FA8F28AF8AD9002EBDC5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F863FADB28AF8E46002EBDC5 /* AvailableCurrenciesInteractorModuleFactory.swift in Sources */,
+				F8EC1DAE28AFD79F007DDAB2 /* ChartModuleFactory.swift in Sources */,
+				F8EC1DAB28AFD79F007DDAB2 /* ChartInteractor.swift in Sources */,
+				F8EC1DA828AFD79F007DDAB2 /* ChartViewController.swift in Sources */,
+				F863FADF28AF8E46002EBDC5 /* AvailableCurrenciesInteractor.swift in Sources */,
+				F863FAE028AF8E46002EBDC5 /* AvailableCurrenciesPresenterOutput.swift in Sources */,
+				F863FAD728AF8E46002EBDC5 /* AvailableCurrenciesInteractorOutput.swift in Sources */,
+				F8EC1DAC28AFD79F007DDAB2 /* ChartPresenterOutput.swift in Sources */,
+				F863FADE28AF8E46002EBDC5 /* AvailableCurrenciesInteractorDataSourceProtocol.swift in Sources */,
+				F863FAD828AF8E46002EBDC5 /* AvailableCurrenciesPresenter.swift in Sources */,
 				F863FA9B28AF8AD9002EBDC5 /* ViewController.swift in Sources */,
+				F863FADA28AF8E46002EBDC5 /* AvailableCurrenciesInteractorInput.swift in Sources */,
+				F863FAD928AF8E46002EBDC5 /* AvailableCurrenciesRouter.swift in Sources */,
+				F863FAE328AF8E46002EBDC5 /* AvailableCurrenciesRouterProtocol.swift in Sources */,
+				F8EC1DA728AFD79F007DDAB2 /* ChartInteractorModuleFactory.swift in Sources */,
+				F8EC1DAD28AFD79F007DDAB2 /* ChartInteractorModuleFactoryProtocol.swift in Sources */,
+				F8EC1DA328AFD79F007DDAB2 /* ChartInteractorOutput.swift in Sources */,
+				F8EC1DA628AFD79F007DDAB2 /* ChartInteractorInput.swift in Sources */,
+				F8EC1DA928AFD79F007DDAB2 /* ChartPresenterInput.swift in Sources */,
+				F8EC1DA528AFD79F007DDAB2 /* ChartRouter.swift in Sources */,
+				F8EC1DA428AFD79F007DDAB2 /* ChartPresenter.swift in Sources */,
 				F863FA9728AF8AD9002EBDC5 /* AppDelegate.swift in Sources */,
+				F863FADC28AF8E46002EBDC5 /* AvailableCurrenciesViewController.swift in Sources */,
+				F8EC1DAF28AFD79F007DDAB2 /* ChartRouterProtocol.swift in Sources */,
+				F86BF41328B036870018A1FC /* AvailableCurrenciesTableViewCell.swift in Sources */,
+				F863FADD28AF8E46002EBDC5 /* AvailableCurrenciesPresenterInput.swift in Sources */,
+				F8EC1DB028AFD79F007DDAB2 /* ChartInteractorDataSource.swift in Sources */,
+				F86BF41628B038690018A1FC /* AvailableCurrenciesTableViewCellConfigurable.swift in Sources */,
+				F863FAE228AF8E46002EBDC5 /* AvailableCurrenciesModuleFactory.swift in Sources */,
+				F8EC1DAA28AFD79F007DDAB2 /* ChartInteractorDataSourceProtocol.swift in Sources */,
+				F863FAE128AF8E46002EBDC5 /* AvailableCurrenciesInteractorModuleFactoryProtocol.swift in Sources */,
 				F863FA9928AF8AD9002EBDC5 /* SceneDelegate.swift in Sources */,
+				F863FAE428AF8E46002EBDC5 /* AvailableCurrenciesInteractorDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +882,7 @@
 		};
 		F863FABE28AF8ADE002EBDC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC7213A87677083654057C49 /* Pods-AbjjadTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -461,6 +910,7 @@
 		};
 		F863FABF28AF8ADE002EBDC5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F0968FD84E5E72914294538 /* Pods-AbjjadTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +938,7 @@
 		};
 		F863FAC128AF8ADE002EBDC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06D7DA770471C72E81850774 /* Pods-AbjjadTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +963,7 @@
 		};
 		F863FAC228AF8ADE002EBDC5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EC475B6907EF77F5F4CD394 /* Pods-AbjjadTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -536,6 +988,7 @@
 		};
 		F863FAC428AF8ADE002EBDC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9168EF8F8CDD1F5FD6E2585 /* Pods-AbjjadTask-AbjjadTaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -558,6 +1011,7 @@
 		};
 		F863FAC528AF8ADE002EBDC5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B97DADDA75BA39FEE4B6131F /* Pods-AbjjadTask-AbjjadTaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -618,6 +1072,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F81B95A528B1299C00B17FB5 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F81B95A628B1299C00B17FB5 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F81B95A528B1299C00B17FB5 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F863FA8B28AF8AD9002EBDC5 /* Project object */;
 }

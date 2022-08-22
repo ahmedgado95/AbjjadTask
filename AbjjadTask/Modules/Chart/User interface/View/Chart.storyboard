@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jZc-y3-T6H">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Chart View Controller-->
+        <scene sceneID="L2s-f2-kHK">
+            <objects>
+                <viewController storyboardIdentifier="ChartViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="jZc-y3-T6H" customClass="ChartViewController" customModule="AbjjadTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Cqf-YQ-rWD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aYS-s4-lXx">
+                                <rect key="frame" x="28" y="31" width="319" height="436"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7b9-hX-RrC" customClass="CandleStickChartView" customModule="Charts">
+                                        <rect key="frame" x="0.0" y="0.0" width="319" height="540"/>
+                                        <color key="backgroundColor" red="0.18823529411764706" green="0.19215686274509802" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="540" id="dlP-gN-QQo"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="7b9-hX-RrC" secondAttribute="bottom" id="Z0i-k6-TxR"/>
+                                    <constraint firstAttribute="trailing" secondItem="7b9-hX-RrC" secondAttribute="trailing" id="ZJj-tt-21j"/>
+                                    <constraint firstItem="7b9-hX-RrC" firstAttribute="centerX" secondItem="aYS-s4-lXx" secondAttribute="centerX" id="dYk-tS-ZWE"/>
+                                    <constraint firstItem="7b9-hX-RrC" firstAttribute="leading" secondItem="aYS-s4-lXx" secondAttribute="leading" id="jsT-af-Jh1"/>
+                                    <constraint firstItem="7b9-hX-RrC" firstAttribute="top" secondItem="aYS-s4-lXx" secondAttribute="top" id="l6z-J2-dZ7"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="KRc-Ws-NFY"/>
+                        <color key="backgroundColor" red="0.13333333333333333" green="0.13725490196078433" blue="0.13333333333333333" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="aYS-s4-lXx" secondAttribute="bottom" constant="200" id="E2X-7S-Tak"/>
+                            <constraint firstItem="aYS-s4-lXx" firstAttribute="leading" secondItem="Cqf-YQ-rWD" secondAttribute="leading" constant="28" id="Kgi-XJ-OLC"/>
+                            <constraint firstItem="aYS-s4-lXx" firstAttribute="top" secondItem="Cqf-YQ-rWD" secondAttribute="top" constant="31" id="eQ5-aj-AeY"/>
+                            <constraint firstAttribute="trailing" secondItem="aYS-s4-lXx" secondAttribute="trailing" constant="28" id="p7d-fj-j9n"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="chartView" destination="7b9-hX-RrC" id="GCH-Rx-n7F"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DW0-KS-HDw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="255" y="191"/>
+        </scene>
+    </scenes>
+</document>
